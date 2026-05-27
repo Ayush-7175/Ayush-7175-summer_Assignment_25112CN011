@@ -7,7 +7,7 @@ int main()
     cin>> n;
     while(n>0)
     {
-        int temp=n%10;
+        
         n=n/10;
         count++;
     }
