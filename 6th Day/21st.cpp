@@ -1,4 +1,4 @@
-// Write a program to Convert decimal to binary
+// Write a program to Convert decimal to binary only one
 
 #include <bits/stdc++.h>
 
