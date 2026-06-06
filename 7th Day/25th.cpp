@@ -1,20 +1,28 @@
-//Write a program to Recursive factorial
-#include<bits/stdc++.h>
+// Write a program to Recursive factorial
+#include <bits/stdc++.h>
 using namespace std;
 int factorial(int n)
-{    while(n!=1)
+{
+
+    if (n == 0)
     {
-    int fact=n*factorial(n-1);
-    return fact;
+
+        return 1;
+    }
+
+    while (n != 1)
+
+    {
+        int fact = n * factorial(n - 1);
+        return fact;
+    }
 }
-}
-int main(){
+int main()
+{
 
     int n;
-    cin>>n;
-    int ans=factorial(n);
-    cout<<ans;
+    cin >> n;
+    int ans = factorial(n);
+    cout << ans;
     return 0;
-
-    
 }
