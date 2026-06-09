@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    int a = 1;
+    
     int n;
-    cout << "enter number of rows u want";
+    cout << "enter number of rows u want ";
     cin >> n;
 
     for (int i = n; i > 0; i--)
