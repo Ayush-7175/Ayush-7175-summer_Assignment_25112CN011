@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     
     int o;
-    int loc=-1;
+    int loc = -1;
     cout<<"enter number to be found";
     cin>>o;
     int n;
